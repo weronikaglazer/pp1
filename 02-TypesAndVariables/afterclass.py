@@ -28,4 +28,36 @@ print(roll1, roll2, roll3)
 
 sum = roll1 + roll2 + roll3
 
-print(sum)
+print(sum) 
+
+# zadanie 21. 
+
+import random
+
+roll = input('Wanna roll the dice?')
+
+while roll == 'yes' or roll == 'y':
+    number = random.randint(1, 6)
+    guess = input('Guess the number [1-6]: ')
+    
+    if guess == number:
+        print('True')
+        roll = input('Wanna roll the dice?')
+    else:
+        print('Try again!')
+        roll = input('Wanna roll the dice?')
+
+
+# zadanie 22.
+
+paid = 15.84
+
+tax = paid * 0.23
+tax_rounded = round(tax, 2)
+
+print(f'Amount : {paid} zł')
+print(f'VAT 23% : {tax_rounded} zł')
+   
+
+
+
