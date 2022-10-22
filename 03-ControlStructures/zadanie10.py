@@ -1,0 +1,1 @@
+print('Practice makes perfect\n' * 5)
