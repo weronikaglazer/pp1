@@ -1,7 +1,8 @@
 import json
 
-with open("books.json") as file:
+with open("countries.json") as file:
     data = json.load(file)
 
-for k,v in data.items():
-    print(k,":",v)
+for i in data:
+    for k,v in i.items():
+        print(k,":",v)
