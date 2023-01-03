@@ -1,0 +1,23 @@
+{
+    "countries": [
+      {
+        "name": "Japan",
+        "capital": "Tokyo",
+        "population": 126000000,
+        "currency": "Japanese yen"
+      },
+      {
+        "name": "India",
+        "capital": "New Delhi",
+        "population": 1353000000,
+        "currency": "Indian rupee"
+      },
+      {
+        "name": "United States",
+        "capital": "Washington D.C.",
+        "population": 331000000,
+        "currency": "United States dollar"
+      }
+    ]
+  }
+  
