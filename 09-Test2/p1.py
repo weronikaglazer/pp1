@@ -23,7 +23,6 @@ def f(player1,player2):
         player1_points += cards.get(card)
 
     for card in player2:
-
         player2_points += cards.get(card)
 
     if player1_points > player2_points:
